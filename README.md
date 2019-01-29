@@ -1,9 +1,9 @@
-##Test Project Documenation
+## Test Project Documenation
 
 
-###Front End:
+### Front End:  
 ---
-####Pages & data used:
+#### Pages & data used:  
 - Sign up (static)
   - email
   - password
@@ -31,12 +31,12 @@
     - Required
     - isAcitive
 - Questionnaire (generated)
-###Technologies used
----
-###DataBase
+### Technologies used    
+
+### DataBase  
 ---
 
-####Goal of the implementation
+#### Goal of the implementation  
 What's need to be implemented:
-####Implementation 
+#### Implementation  
 - 
