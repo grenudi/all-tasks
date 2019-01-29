@@ -1,4 +1,4 @@
-package com.huvave.demo.entity;
+package all_tasks.entity;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

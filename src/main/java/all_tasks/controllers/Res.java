@@ -1,35 +1,26 @@
-package com.huvave.demo.controllers;
+package all_tasks.controllers;
 
-import com.huvave.demo.entity.Main;
-import org.hibernate.Criteria;
+import all_tasks.entity.Main;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.repository.Repository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.persistence.EntityManager;
-import java.sql.ResultSet;
 
 @Controller
 public class Res {
-@Autowired
+    @Autowired
     EntityManager manager;
 
     @GetMapping("/user?name=asdf")
     public ResponseEntity get(@RequestParam String s) throws NoSuchMethodException {
+      String ra[] = Array [10];
+      ra.length
         manager.createQuery("select from Main where id=:id")
                 .setParameter("id", s);
-
-        queryFactory.selectFrom(Main)
-                .where(Main.id.eq(s)
-                .fetch();
-
-        ( Main.class,
-        Restrictions.eq("id", s)).;
-        ResultSet resoultSet
 
         return ResponseEntity.ok().build();
     }

@@ -1,6 +1,6 @@
-package com.huvave.demo;
+package all_tasks;
 
-import com.huvave.demo.entity.Main;
+import all_tasks.entity.Main;
 import org.springframework.data.repository.Repository;
 
 public abstract class repository implements Repository<Main, Integer> {

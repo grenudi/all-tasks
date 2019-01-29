@@ -1,4 +1,4 @@
-package com.huvave.demo;
+package all_tasks;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
