@@ -5,32 +5,33 @@
 ---
 #### Pages & data used:  
 - Sign up (static)
-  - email
-  - password
-  - 1name
-  - 2name
-  - phone number
+  - email [VARCHAR]
+  - password [VARCHAR]
+  - 1name [VARCHAR]
+  - 2name [VARCHAR]
+  - phone number [BIGINT]
 - Sign in (static)
-  - email | phone number
-  - password
+  - email [VARCHAR] | phone number [BIGINT]
+  - password [VARCHAR]
 - Edit profile (generated)
-  - email
-  - 1name
-  - 2name
-  - phone number
-- Fields list (dynamic, generated)
+  - email [VARCHAR]
+  - 1name [VARCHAR]
+  - 2name [VARCHAR]
+  - phone number [BIGINT]
+- Fields list (dynamic, generated [read table])
   - Rows
     - Label [VARCHAR]
     - Type [predefined]
-    - Required
-    - isAcitive
+    - Required [BOOLEAN]
+    - isAcitive [BOOLEAN]
 - Add field (Popup, Dialog) (static)
-    - Label 
-    - Type
-      - Data for that type(options)
-    - Required
-    - isAcitive
+    - Label [VARCHAR]
+    - Type [predefined]
+      - Data for that type(options) [VARCHAR]
+    - Required [BOOLEAN]
+    - isAcitive [BOOLEAN]
 - Questionnaire (generated)
+- Responses (generated (from questionnaire input));
 ### Technologies used    
 
 ### DataBase  
@@ -39,4 +40,5 @@
 #### Goal of the implementation  
 What's need to be implemented:
 #### Implementation  
+![UML Diagram for all_tasks Database](./uml_all_tasks.png)
 - 
