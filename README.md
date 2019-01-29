@@ -1,7 +1,8 @@
 ##Test Project Documenation
----
+
 
 ###Front End:
+---
 ####Pages & data used:
 - Sign up (static)
   - email
@@ -31,8 +32,9 @@
     - isAcitive
 - Questionnaire (generated)
 ###Technologies used
-
+---
 ###DataBase
+---
 
 ####Goal of the implementation
 What's need to be implemented:
